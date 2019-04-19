@@ -10,12 +10,12 @@
 
 import Foundation
 
-//MARK: View -
+// MARK: View -
 protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
 
 }
 
-//MARK: Presenter -
+// MARK: Presenter -
 protocol ___VARIABLE_productName:identifier___PresenterProtocol: class {
 	var view: ___VARIABLE_productName:identifier___ViewProtocol? { get set }
     func viewDidLoad()
