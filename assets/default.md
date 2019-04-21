@@ -9,7 +9,7 @@ protocol LoginViewProtocol: class {
 
 //MARK: Presenter -
 protocol LoginPresenterProtocol: class {
-	var view: LoginViewProtocol? { get set }
+    var view: LoginViewProtocol? { get set }
     func viewDidLoad()
 }
 
