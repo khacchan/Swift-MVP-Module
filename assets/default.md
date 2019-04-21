@@ -27,9 +27,9 @@ class LoginPresenter: LoginPresenterProtocol {
 ```swift
 class LoginViewController: UIViewController, LoginViewProtocol {
 
-	var presenter: LoginPresenterProtocol
+    var presenter: LoginPresenterProtocol
 
-	init(presenter: LoginPresenterProtocol) {
+    init(presenter: LoginPresenterProtocol) {
         self.presenter = presenter
         super.init(nibName: "LoginViewController", bundle: nil)
     }
