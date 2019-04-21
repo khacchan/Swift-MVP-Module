@@ -26,7 +26,7 @@ This template generates all files that you need to create a new MVP module. All 
 
 This is an example, we're creating a Login module:
 
-- [](/assets/default.md)
+- [Login module](/assets/default.md)
 
 
 ## MVP diagram overview
